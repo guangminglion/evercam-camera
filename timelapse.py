@@ -5,18 +5,14 @@ Created on Mon Aug 20 13:17:34 2018
 @author: javi
 """
 import subprocess
-from AWSIoTPythonSDK.MQTTLib import AWSIoTMQTTShadowClient
 
 import boto3
-from inotify_simple import INotify, flags
-from AWSIoTPythonSDK.MQTTLib import AWSIoTMQTTClient
 from time import sleep
 from datetime import date, datetime
 import json
 import cv2
 from uuid import getnode as get_mac
 import time
-import psycopg2
 
 
 import fnmatch, os
