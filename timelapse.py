@@ -28,7 +28,7 @@ import fnmatch, os
 
 
 #os.system(' tvservice -o')
-os.system(' mkdir build')
+os.system(' mkdir capture')
 
 mac = get_mac()
 print (mac)
